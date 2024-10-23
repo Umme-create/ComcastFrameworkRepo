@@ -22,6 +22,13 @@ public class HomePage {
 	public WebElement getContactlink() {
 		return contactlink;
 	}
+	
+	@FindBy(linkText = "Products")
+	private WebElement productlink;
+
+	public WebElement getProductlink() {
+		return productlink;
+	}
 
 	@FindBy(linkText = "Organizations")
 	private WebElement orglink;
